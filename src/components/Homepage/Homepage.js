@@ -28,8 +28,8 @@ const Homepage = () => {
             <div className="flex flex-col min-h-screen">
                 <div className="flex-grow">
                     <div className=" absolute p-2 top-1/2 -translate-y-1/2 md:top-1/2 md:left-2/4 md:transform md:-translate-x-2/4 md:-translate-y-1/2 text-center">
-                        <h2 className="mockupTitle mt-10 md:text-[65px] text-[40px] animate__animated animate__zoomIn  animate__delay-1s">We Building Tomorrow's Digital Landscape Today</h2>
-                        <h2 className="mockupTitle text-[22px] md:text-[26px] animate__animated animate__zoomIn  animate__delay-1s">Everything from simple task to worldwide project</h2>
+                        <h2 className="mockupTitle mt-10 md:text-[65px] text-[50px] animate__animated animate__zoomIn  animate__delay-1s">We Building Tomorrow's Digital Landscape Today</h2>
+                        <h2 className="mockupTitle mt-7 text-[25px] leading-7 md:text-[26px] animate__animated animate__zoomIn  animate__delay-1s">Everything from simple task to worldwide project</h2>
                         <button class="button mt-10 animate__animated animate__zoomIn  animate__delay-1s" onClick={() => scrollToTarget()}>Launch Your Project</button>
                     </div>
                 </div>
