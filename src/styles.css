@@ -6,6 +6,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
+html,
+body,
+#root {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  scroll-snap-destination: 0% 100%;
+}
+
 body::-webkit-scrollbar {
   width: 0;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
