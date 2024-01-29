@@ -3,7 +3,7 @@
 const LetsConnect = () => {
     return (
         <>
-            <div class="flex mt-10 absolute justify-center items-center w-screen h-screen">
+            <div class="flex justify-center md:items-center w-screen h-screen">
                 <div class="container mx-auto my-4 px-4 lg:px-20">
                     <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                         <div class="flex justify-center">
@@ -16,7 +16,7 @@ const LetsConnect = () => {
                                 type="email" placeholder="Email*" />
                         </div>
                         <div class="my-4">
-                            <textarea placeholder="Message*" class="w-full h-32 w-full bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"></textarea>
+                            <textarea placeholder="Message*" class="w-full h-32 bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"></textarea>
                         </div>
                         <div class="my-2 text-center">
                             <button class="button mt-10 animate__animated animate__zoomIn  animate__delay-1s">Contact Us</button>

@@ -58,7 +58,8 @@ const Scene = () => {
             <meshBasicMaterial wireframe />
           </mesh>
         }
-      ><group ref={groupRef} rotation={rotation}>
+      >
+        <group ref={groupRef} rotation={rotation}>
           <BackgroundModel />
         </group>
         <CubeModel mouse={rotation}/>
