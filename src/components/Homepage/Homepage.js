@@ -34,7 +34,7 @@ const Homepage = () => {
                         <button className="button mt-10 animate__animated animate__zoomIn animate__delay-1s" onClick={() => scrollToTarget()}>Launch Your Project</button>
                     </div>
                 </div>
-                <div className="md:px-28 mt-20">
+                <div className="mt-20">
                     <ServicesCards />
                 </div>
                 <div id="letsConnect">
