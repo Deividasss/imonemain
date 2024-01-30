@@ -3,6 +3,7 @@ import 'animate.css';
 import LetsConnect from "../LetsConnect/LetsConnect";
 import { useNavigate } from "react-router-dom";
 import ServicesCards from "../ServicesCards/ServicesCards";
+import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 
 
 const Homepage = () => {
@@ -34,10 +35,13 @@ const Homepage = () => {
                         <button className="button mt-10 animate__animated animate__zoomIn animate__delay-1s" onClick={() => scrollToTarget()}>Launch Your Project</button>
                     </div>
                 </div>
-                <div className="mt-20">
+                <div className="md:px-28 mt-20">
                     <ServicesCards />
                 </div>
-                <div id="letsConnect">
+                <div className="md:px-28 mt-20">
+                    <WhyChooseUs/>
+                </div>
+                <div id="letsConnect" className="mt-20">
                     <LetsConnect />
                 </div>
             </div>
