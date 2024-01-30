@@ -7,7 +7,7 @@ const ServicesCards = () => {
         <div>
             <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-36">Elevate Your Digital Experience With Our Services</h1>
             <div className="md:flex justify-center space-x-4">
-                <div className="flip-card  md:ml-0 md:mt-0 mt-20">
+                <div className="flip-card ml-5 md:ml-0 md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             {/* <div class="boxes">
