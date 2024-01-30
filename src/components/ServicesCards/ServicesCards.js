@@ -6,8 +6,8 @@ const ServicesCards = () => {
     return (
         <div>
             <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-36">Elevate Your Digital Experience With Our Services</h1>
-            <div className="md:flex justify-center space-x-4 items-center">
-                <div className="flip-card mx-auto ml-5 md:ml-0 md:mt-0 mt-20">
+            <div className="md:flex justify-center space-x-4">
+                <div className="flip-card ml-5 md:ml-0 md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <div class="boxes">
@@ -44,7 +44,7 @@ const ServicesCards = () => {
                         </div>
                     </div>
                 </div>
-                <div class="flip-card mx-auto md:mt-0 mt-20">
+                <div class="flip-card md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <div class="loader">
@@ -65,7 +65,7 @@ const ServicesCards = () => {
                         </div>
                     </div>
                 </div>
-                <div class="flip-card mx-auto md:mt-0 mt-20">
+                <div class="flip-card md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <div class="loaderr">
