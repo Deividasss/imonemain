@@ -62,13 +62,12 @@
 //----------------------------------------------------------------------------1 model---------------------------------------------------------------------------------//
 
 .boxes {
-    top: 0px;
-    left: 0px;
+    margin-top: -360px;
+    margin-left: 130px;
     --size: 50px;
     --duration: 1s;
-    position: relative;
+ 
     transform-style: preserve-3d;
-    transform-origin: 100% 100%;
     transform: rotateX(60deg) rotateZ(45deg) rotateY(0deg) translateZ(0px);
 }
 
