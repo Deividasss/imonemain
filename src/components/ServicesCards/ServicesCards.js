@@ -10,7 +10,7 @@ const ServicesCards = () => {
                 <div className="flip-card ml-5 md:ml-0 md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="boxes">
+                            {/* <div class="boxes">
                                 <div class="box">
                                     <div></div>
                                     <div></div>
@@ -35,7 +35,7 @@ const ServicesCards = () => {
                                     <div></div>
                                     <div></div>
                                 </div>
-                            </div>
+                            </div> */}
                             <p class="pt-4 px-4 flipTitle text-4xl">Development Consulting</p>
                         </div>
                         <div class="flip-card-back ">
