@@ -47,7 +47,7 @@ const ServicesCards = () => {
                 <div class="flip-card md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="loader">
+                            {/* <div class="loader">
                                 <div class="loader-cube">
                                     <div class="face"></div>
                                     <div class="face"></div>
@@ -56,7 +56,7 @@ const ServicesCards = () => {
                                     <div class="face"></div>
                                     <div class="face"></div>
                                 </div>
-                            </div>
+                            </div> */}
                             <p class="pt-4 px-4 flipTitle text-4xl">Custom Web Development</p>
                         </div>
                         <div class="flip-card-back">
@@ -65,7 +65,7 @@ const ServicesCards = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div class="flip-card md:mt-0 mt-20">
+                <div class="flip-card md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <div class="loaderr">
@@ -97,7 +97,7 @@ const ServicesCards = () => {
                             <p className=" flex mt-16 ml-40 flipTitle text-2xl hover:cursor-pointer hover:scale-125 hover:text-slate-300 " onClick={() => alert("")}>Learn More <FaArrowRight className="mx-2 mt-1" /></p>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )
