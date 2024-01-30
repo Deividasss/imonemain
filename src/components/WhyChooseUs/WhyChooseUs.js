@@ -4,7 +4,7 @@ import "../WhyChooseUs/WhyChooseUs.scss"
 const WhyChooseUs = () => {
     return (
         <div className="mt-52 ">
-            <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-20">Elevate Your Business with [Your Company Name]: Here's Why We Stand Out</h1>
+            <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-20">Why Choose [Pavadinimas]</h1>
             <div className="">
                 <ul class="relative space-y-4 item-center">
                     <div className="flex">
@@ -40,9 +40,9 @@ const WhyChooseUs = () => {
                         <div>
                             <div className="flex">
                                 <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
-                                <p className="listText text-[25px] mb-2">Transparent Communication</p>
+                                <p className="listText text-[25px] mb-2">Collaborative Partnership</p>
                             </div>
-                            <span className="text-white text-[20px]">We believe in open and transparent communication throughout the development process, keeping you informed and involved every step of the way.</span>
+                            <span className="text-white text-[20px]">Consider us not just as a service provider but as a collaborative partner invested in your success, offering strategic insights and guidance.</span>
                         </div>
                     </li>
                 </ul>
