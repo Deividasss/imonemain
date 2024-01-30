@@ -35,13 +35,13 @@ const Homepage = () => {
                         <button className="button mt-10 animate__animated animate__zoomIn animate__delay-1s" onClick={() => scrollToTarget()}>Launch Your Project</button>
                     </div>
                 </div>
-                <div className="md:px-28 md:mt-20 mt-10">
+                <div className="md:px-28 md:mt-20">
                     <ServicesCards />
                 </div>
-                <div className="md:px-28 md:mt-20 mt-10">
+                <div className="md:px-28 md:mt-20">
                     <WhyChooseUs />
                 </div>
-                <div id="letsConnect" className="md:mt-20 mt-10">
+                <div id="letsConnect" className="md:mt-20">
                     <LetsConnect />
                 </div>
             </div>
