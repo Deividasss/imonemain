@@ -47,7 +47,7 @@ const ServicesCards = () => {
                 <div class="flip-card md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="loader">
+                            {/* <div class="loader">
                                 <div class="loader-cube">
                                     <div class="face"></div>
                                     <div class="face"></div>
@@ -56,7 +56,7 @@ const ServicesCards = () => {
                                     <div class="face"></div>
                                     <div class="face"></div>
                                 </div>
-                            </div>
+                            </div> */}
                             <p class="pt-4 px-4 flipTitle text-4xl">Custom Web Development</p>
                         </div>
                         <div class="flip-card-back">
@@ -68,7 +68,7 @@ const ServicesCards = () => {
                 <div class="flip-card md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <div class="loaderr">
+                            {/* <div class="loaderr">
                                 <div class="boxer box-1">
                                     <div class="side-left"></div>
                                     <div class="side-right"></div>
@@ -89,7 +89,7 @@ const ServicesCards = () => {
                                     <div class="side-right"></div>
                                     <div class="side-top"></div>
                                 </div>
-                            </div>
+                            </div> */}
                             <p class="pt-4 px-4 flipTitle text-4xl">Mobile App Solutions</p>
                         </div>
                         <div class="flip-card-back">
