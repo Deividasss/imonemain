@@ -4,7 +4,7 @@ const LetsConnect = () => {
     return (
         <>
             <div class="flex justify-center md:items-center w-screen h-screen">
-                <div class="container mx-auto my-4 px-4 lg:px-20">
+                <div class="container mx-auto my-4 px-4 lg:px-20 ">
                     <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
                         <div class="flex justify-center">
                             <h1 class="font-bold mockupTitle uppercase text-5xl">Let's Connect</h1>

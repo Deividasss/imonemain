@@ -3,7 +3,7 @@ import "../WhyChooseUs/WhyChooseUs.scss"
 
 const WhyChooseUs = () => {
     return (
-        <div className="mt-52 h-screen">
+        <div className="mt-52 ">
             <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-20">Elevate Your Business with [Your Company Name]: Here's Why We Stand Out</h1>
             <div className="">
                 <ul class="relative space-y-4 item-center">

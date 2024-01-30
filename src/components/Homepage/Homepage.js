@@ -41,7 +41,7 @@ const Homepage = () => {
                 <div className="md:px-28 md:mt-20">
                     <WhyChooseUs />
                 </div>
-                <div id="letsConnect" className="md:mt-20">
+                <div id="letsConnect" className="md:mt-20 ">
                     <LetsConnect />
                 </div>
             </div>
