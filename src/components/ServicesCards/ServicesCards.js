@@ -6,7 +6,7 @@ const ServicesCards = () => {
     return (
         <div>
             <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-36">Elevate Your Digital Experience With Our Services</h1>
-            <div className="md:flex md:justify-center space-x-4">
+            <div className="md:flex justify-center space-x-4">
                 <div className="flip-card ml-5 md:ml-0 md:mt-0 mt-20">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -36,15 +36,68 @@ const ServicesCards = () => {
                                     <div></div>
                                 </div>
                             </div> */}
-                            <p class="pt-4 px-4 flipTitle text-4xl">Development Consulting</p>
+                            {/* <p class="pt-4 px-4 flipTitle text-4xl">Development Consulting</p> */}
                         </div>
-                        <div class="flip-card-back ">
+                        {/* <div class="flip-card-back ">
                             <p className="px-4 flipTitle text-[19px]">Our seasoned team of web development consultants is dedicated to guiding you through the intricacies of the digital landscape, offering tailored solutions to elevate your business to new heights.</p>
+                            <p className=" flex mt-16 ml-40 flipTitle text-2xl hover:cursor-pointer hover:scale-125 hover:text-slate-300 " onClick={() => alert("")}>Learn More <FaArrowRight className="mx-2 mt-1" /></p>
+                        </div> */}
+                    </div>
+                </div>
+                {/* <div class="flip-card md:mt-0 mt-20">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="loader">
+                                <div class="loader-cube">
+                                    <div class="face"></div>
+                                    <div class="face"></div>
+                                    <div class="face"></div>
+                                    <div class="face"></div>
+                                    <div class="face"></div>
+                                    <div class="face"></div>
+                                </div>
+                            </div>
+                            <p class="pt-4 px-4 flipTitle text-4xl">Custom Web Development</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p className="px-4 flipTitle text-[19px]">Tailored web solutions that align perfectly with your business objectives. We build robust, scalable websites that serve as powerful tools for your online presence.</p>
                             <p className=" flex mt-16 ml-40 flipTitle text-2xl hover:cursor-pointer hover:scale-125 hover:text-slate-300 " onClick={() => alert("")}>Learn More <FaArrowRight className="mx-2 mt-1" /></p>
                         </div>
                     </div>
-                </div>
-    
+                </div> */}
+                {/* <div class="flip-card md:mt-0 mt-20">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="loaderr">
+                                <div class="boxer box-1">
+                                    <div class="side-left"></div>
+                                    <div class="side-right"></div>
+                                    <div class="side-top"></div>
+                                </div>
+                                <div class="boxer box-2">
+                                    <div class="side-left"></div>
+                                    <div class="side-right"></div>
+                                    <div class="side-top"></div>
+                                </div>
+                                <div class="boxer box-3">
+                                    <div class="side-left"></div>
+                                    <div class="side-right"></div>
+                                    <div class="side-top"></div>
+                                </div>
+                                <div class="boxer box-4">
+                                    <div class="side-left"></div>
+                                    <div class="side-right"></div>
+                                    <div class="side-top"></div>
+                                </div>
+                            </div>
+                            <p class="pt-4 px-4 flipTitle text-4xl">Mobile App Solutions</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p className="px-4 flipTitle text-[19px]">We prioritize user experience in every aspect of app development, ensuring that your application not only meets but exceeds user expectations.</p>
+                            <p className=" flex mt-16 ml-40 flipTitle text-2xl hover:cursor-pointer hover:scale-125 hover:text-slate-300 " onClick={() => alert("")}>Learn More <FaArrowRight className="mx-2 mt-1" /></p>
+                        </div>
+                    </div>
+                </div> */}
             </div>
         </div>
     )
