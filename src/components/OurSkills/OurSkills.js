@@ -7,6 +7,17 @@ import NodeJs from "../../assets/image/nodejs.png"
 import MySql from "../../assets/image/mySQL.png"
 
 const OurSkills = () => {
+
+    const scrollToTarget = () => {
+        const targetBlock = document.getElementById('letsConnect');
+
+        if (targetBlock) {
+            targetBlock.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    };
+
     return (
         <div class="w-[80%] relative mx-auto">
             <div class=" text-center">
@@ -16,29 +27,34 @@ const OurSkills = () => {
             <div className="flex justify-center mt-20">
                 <div class=" grid grid-cols-2 gap-12 mb-10 md:grid-cols-4">
                     <div class="text-center">
-                        <img className=" h-[80px] mx-auto " src={ReactLogo} />
+                        <img className=" h-[60px] mx-auto " src={ReactLogo} />
                     </div>
                     <div class="text-center">
-                        <img className=" h-[120px] mt-[-20px] mx-auto " src={PhpLogo} />
+                        <img className=" h-[120px] mt-[-30px] mx-auto " src={PhpLogo} />
 
                     </div>
                     <div class="text-center">
-                        <img className=" h-[80px] mx-auto" src={JavaScriptLogo} />
+                        <img className=" h-[60px] mx-auto" src={JavaScriptLogo} />
 
                     </div>
                     <div class="text-center">
-                        <img className="h-[80px] mx-auto " src={NodeJs} />
+                        <img className="h-[60px] mx-auto " src={NodeJs} />
 
                     </div>
                     <div class="text-center">
-                        <img className="h-[120px] mt-[-20px] mx-auto " src={MySql} />
+                        <img className="h-[120px] mt-[-30px] mx-auto " src={MySql} />
 
                     </div>
                     <div class="text-center">
-                        <img className="h-[80px] mx-auto " src={SimfonyLogo} />
-
+                        <img className="h-[60px] mx-auto " src={SimfonyLogo} />
+                    </div>
+                    <div class="text-center">
+                        <img className="h-[60px] mx-auto " src={"https://www.mygom.tech/_next/image?url=https%3A%2F%2Fmygom-landing.s3.eu-central-1.amazonaws.com%2FMask%20group-16.png&w=1200&q=75"} />
                     </div>
                 </div>
+            </div>
+            <div className="text-center">
+                <button className="button mt-5 animate__animated animate__zoomIn animate__delay-1s" onClick={() => scrollToTarget()}>Contact Us</button>
             </div>
         </div>
     )
