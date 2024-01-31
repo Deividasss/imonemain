@@ -14,18 +14,18 @@ const OurSkills = () => {
                 <p class="pt-10 text-2xl skillsText">Explore the depth of our skills, and let us transform your digital vision into a reality. Whether you're a startup seeking an impactful online debut or an established enterprise aiming to enhance your digital footprint, [Your Company Name] is your dedicated partner for unlocking the full potential of the web.</p>
             </div>
             <div class="container w-[50%] mx-auto grid justify-center gap-2 grid-cols-2 lg:grid-cols-4">
-                <div class="flex flex-col items-center p-4">
-                    <div class="flex flex-col items-center p-4">
+                <div class="flex flex-col items-center ">
+                    <div class="flex flex-col items-center ">
                         <img className="w-[200px] md:w-[80px]" src={ReactLogo}></img>
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
-                    <div class="flex flex-col items-center pt-8">
-                        <img className="w-[200px] md:w-[150px] pt-5" src={SimfonyLogo}></img>
+                    <div class="flex flex-col items-center ">
+                        <img className="w-[200px] md:w-[150px] " src={SimfonyLogo}></img>
                     </div>
                 </div>
-                <div class="flex flex-col items-center p-4">
-                    <div class="flex flex-col items-center pt-4">
+                <div class="flex flex-col items-center ">
+                    <div class="flex flex-col items-center ">
                         <img className="w-[75px]" src={JavaScriptLogo}></img>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const OurSkills = () => {
                         <img className="w-[180px]" src={PhpLogo}></img>
                     </div>
                 </div>
-                <div class="flex flex-col items-center p-4">
+                <div class="flex flex-col items-center ">
                     <div class="flex flex-col items-center">
                         <img className="w-[100px]" src={NodeJs}></img>
                     </div>
