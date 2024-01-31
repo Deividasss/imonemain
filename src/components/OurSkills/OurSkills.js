@@ -3,8 +3,8 @@ import ReactLogo from "../../assets/image/reactLogo.png"
 import JavaScriptLogo from "../../assets/image/javaScriptLogo.png"
 import PhpLogo from "../../assets/image/phpLogo.png"
 import SimfonyLogo from "../../assets/image/simfonyLogo.png"
-import MySqlLogo from "../../assets/image/mySQL.png"
-import NodeJsLogo from "../../assets/image/nodejs.png"
+import NodeJs from "../../assets/image/nodejs.png"
+import MySql from "../../assets/image/mySQL.png"
 
 const OurSkills = () => {
     return (
@@ -13,24 +13,36 @@ const OurSkills = () => {
                 <h2 class="text-6xl skillsText">Empowering Digital Excellence <br /> Our Expertise in Development</h2>
                 <p class="pt-10 text-2xl skillsText">Explore the depth of our skills, and let us transform your digital vision into a reality. Whether you're a startup seeking an impactful online debut or an established enterprise aiming to enhance your digital footprint, [Your Company Name] is your dedicated partner for unlocking the full potential of the web.</p>
             </div>
-            <div class="container mx-auto flex justify-center items-center gap-12">
-                <div class="flex items-center p-4">
-                    <img className="w-[80px]" src={ReactLogo} alt="React Logo"></img>
+            <div class="container w-[50%] mx-auto grid justify-center gap-2 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="flex flex-col items-center p-4">
+                    <div class="flex flex-col items-center p-4">
+                        <img className="w-[80px]" src={ReactLogo}></img>
+                    </div>
                 </div>
-                <div class="flex items-center p-4">
-                    <img className="w-[80px]" src={JavaScriptLogo} alt="JavaScript Logo"></img>
+                <div class="flex flex-col items-center">
+                    <div class="flex flex-col items-center pt-8">
+                        <img className="w-[150px] pt-5" src={SimfonyLogo}></img>
+                    </div>
                 </div>
-                <div class="flex items-center p-4">
-                    <img className="w-[120px]" src={PhpLogo} alt="PHP Logo"></img>
+                <div class="flex flex-col items-center p-4">
+                    <div class="flex flex-col items-center pt-4">
+                        <img className="w-[75px]" src={JavaScriptLogo}></img>
+                    </div>
                 </div>
-                <div class="flex items-center p-4">
-                    <img className="w-[200px]" src={SimfonyLogo} alt="React Logo"></img>
+                <div class="flex flex-col items-center">
+                    <div class="flex flex-col ">
+                        <img className="w-[180px]" src={PhpLogo}></img>
+                    </div>
                 </div>
-                <div class="flex items-center p-4">
-                    <img className="w-[120px]" src={MySqlLogo} alt="React Logo"></img>
+                <div class="flex flex-col items-center p-4">
+                    <div class="flex flex-col items-center">
+                        <img className="w-[100px]" src={NodeJs}></img>
+                    </div>
                 </div>
-                <div class="flex items-center p-4">
-                    <img className="w-[120px]" src={NodeJsLogo} alt="React Logo"></img>
+                <div class="flex flex-col items-center mt-[-20px]">
+                    <div class="flex flex-col items-center">
+                        <img className="w-[120px]" src={MySql}></img>
+                    </div>
                 </div>
             </div>
         </section>
