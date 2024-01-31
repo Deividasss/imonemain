@@ -16,7 +16,7 @@ const OurSkills = () => {
             <div class="container md:w-[50%] mx-auto grid justify-center gap-2 grid-cols-2 lg:grid-cols-4">
                 <div class="flex flex-col items-center ">
                     <div class="flex flex-col items-center ">
-                        <img className="w-[200px] md:w-[80px]" src={ReactLogo}></img>
+                        <img className="w-[100px] md:w-[80px]" src={ReactLogo}></img>
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
