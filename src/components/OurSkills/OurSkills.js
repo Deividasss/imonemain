@@ -14,7 +14,7 @@ const OurSkills = () => {
                 <p class="pt-10 text-2xl skillsText">Explore the depth of our skills, and let us transform your digital vision into a reality. Whether you're a startup seeking an impactful online debut or an established enterprise aiming to enhance your digital footprint, [Your Company Name] is your dedicated partner for unlocking the full potential of the web.</p>
             </div>
             <div className="flex justify-center mt-14">
-                <div class=" grid grid-cols-2 gap-12 mb-10 lg:grid-cols-4">
+                <div class=" grid grid-cols-2 gap-12 mb-10 md:grid-cols-4">
                     <div class="text-center">
                         <img className=" h-[80px] mx-auto " src={ReactLogo} />
                     </div>
