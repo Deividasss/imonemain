@@ -16,12 +16,12 @@ const OurSkills = () => {
             <div class="container w-[50%] mx-auto grid justify-center gap-2 grid-cols-2 lg:grid-cols-4">
                 <div class="flex flex-col items-center p-4">
                     <div class="flex flex-col items-center p-4">
-                        <img className="w-[80px]" src={ReactLogo}></img>
+                        <img className="md:w-[80px]" src={ReactLogo}></img>
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
                     <div class="flex flex-col items-center pt-8">
-                        <img className="w-[150px] pt-5" src={SimfonyLogo}></img>
+                        <img className="md:w-[150px] pt-5" src={SimfonyLogo}></img>
                     </div>
                 </div>
                 <div class="flex flex-col items-center p-4">
