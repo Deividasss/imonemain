@@ -19,7 +19,7 @@ const OurSkills = () => {
                         <img className=" h-[80px] mx-auto " src={ReactLogo} />
                     </div>
                     <div class="text-center">
-                        <img className=" h-[80px] mx-auto " src={PhpLogo} />
+                        <img className=" h-[120px] mt-[-20px] mx-auto " src={PhpLogo} />
 
                     </div>
                     <div class="text-center">
@@ -31,7 +31,7 @@ const OurSkills = () => {
 
                     </div>
                     <div class="text-center">
-                        <img className="h-[120px] mx-auto " src={MySql} />
+                        <img className="h-[120px] mt-[-20px] mx-auto " src={MySql} />
 
                     </div>
                     <div class="text-center">
