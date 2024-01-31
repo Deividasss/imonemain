@@ -10,7 +10,7 @@ const OurSkills = () => {
     return (
         <div class="w-[80%] relative mx-auto">
             <div class=" text-center">
-                <h2 class="text-5xl md:text-6xl skillsText">Empowering Digital Excellence <br /> <span className="text-3xl md:text-5xl">Our Expertise in Development</span></h2>
+                <h2 class="text-5xl md:text-6xl skillsText">Our Expertise in Development</h2>
                 <p class="pt-10 text-xl md:text-2xl skillsText">Explore the depth of our skills, and let us transform your digital vision into a reality. Whether you're a startup seeking an impactful online debut or an established enterprise aiming to enhance your digital footprint, [Your Company Name] is your dedicated partner for unlocking the full potential of the web.</p>
             </div>
             <div className="flex justify-center mt-20">
