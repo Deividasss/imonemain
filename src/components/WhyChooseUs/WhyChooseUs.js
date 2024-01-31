@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
             <div className="">
                 <ul class="relative space-y-4 item-center">
                     <div className="flex">
-                        <li class="flex items-center justify-center bg-[#00416a8e] p-7 w-[90%] md:w-[50%] m-auto rounded-[50px]">
+                        <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
                             <div>
                                 <div className="flex">
                                     <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
                             </div>
                         </li>
                     </div>
-                    <li class="flex items-center justify-center bg-[#00416a8e] p-7 w-[90%] md:w-[50%] m-auto rounded-[50px]">
+                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
                         <div>
                             <div className="flex">
                                 <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
                             <span className="text-white text-[20px]">We believe in open and transparent communication throughout the development process, keeping you informed and involved every step of the way.</span>
                         </div>
                     </li>
-                    <li class="flex items-center justify-center bg-[#00416a8e] p-7 w-[90%] md:w-[50%] m-auto rounded-[50px]">
+                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
                         <div>
                             <div className="flex">
                                 <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
                             <span className="text-white text-[20px]">Count on us for reliable and responsive support. We are committed to ensuring your systems run smoothly at all times.</span>
                         </div>
                     </li>
-                    <li class="flex items-center justify-center bg-[#00416a8e] p-7 w-[90%] md:w-[50%] m-auto rounded-[50px]">
+                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
                         <div>
                             <div className="flex">
                                 <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />

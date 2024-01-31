@@ -4,6 +4,7 @@ import LetsConnect from "../LetsConnect/LetsConnect";
 import { useNavigate } from "react-router-dom";
 import ServicesCards from "../ServicesCards/ServicesCards";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
+import OurSkills from "../OurSkills/OurSkills";
 
 
 const Homepage = () => {
@@ -40,6 +41,9 @@ const Homepage = () => {
                 </div>
                 <div className="md:px-28 md:mt-20">
                     <WhyChooseUs />
+                </div>
+                <div className="md:px-28 md:mt-40">
+                    <OurSkills />
                 </div>
                 <div id="letsConnect" className="md:mt-20 ">
                     <LetsConnect />
