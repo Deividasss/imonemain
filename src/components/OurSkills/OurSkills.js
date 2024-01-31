@@ -13,7 +13,7 @@ const OurSkills = () => {
                 <h2 class="text-6xl skillsText">Empowering Digital Excellence <br /> Our Expertise in Development</h2>
                 <p class="pt-10 text-2xl skillsText">Explore the depth of our skills, and let us transform your digital vision into a reality. Whether you're a startup seeking an impactful online debut or an established enterprise aiming to enhance your digital footprint, [Your Company Name] is your dedicated partner for unlocking the full potential of the web.</p>
             </div>
-            <div class="container w-[50%] mx-auto grid justify-center gap-2 grid-cols-2 lg:grid-cols-4">
+            <div class="container md:w-[50%] mx-auto grid justify-center gap-2 grid-cols-2 lg:grid-cols-4">
                 <div class="flex flex-col items-center ">
                     <div class="flex flex-col items-center ">
                         <img className="w-[200px] md:w-[80px]" src={ReactLogo}></img>
