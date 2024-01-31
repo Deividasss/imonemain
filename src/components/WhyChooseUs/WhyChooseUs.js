@@ -3,7 +3,7 @@ import "../WhyChooseUs/WhyChooseUs.scss"
 
 const WhyChooseUs = () => {
     return (
-        <div className="mt-52 ">
+        <div className="mt-24 md:mt-48 ">
             <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-20">Why Choose [Pavadinimas]</h1>
             <div className="">
                 <ul class="relative space-y-4 item-center">
