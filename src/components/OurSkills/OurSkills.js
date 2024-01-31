@@ -8,44 +8,39 @@ import MySql from "../../assets/image/mySQL.png"
 
 const OurSkills = () => {
     return (
-        <section class="m-4 md:m-8 dark:bg-gray-800 dark:text-gray-100">
-            <div class="container mx-auto p-4 my-6 space-y-2 text-center">
+        <div class="lex justify-center w-[80%] relative mx-auto">
+            <div class=" text-center">
                 <h2 class="text-6xl skillsText">Empowering Digital Excellence <br /> Our Expertise in Development</h2>
                 <p class="pt-10 text-2xl skillsText">Explore the depth of our skills, and let us transform your digital vision into a reality. Whether you're a startup seeking an impactful online debut or an established enterprise aiming to enhance your digital footprint, [Your Company Name] is your dedicated partner for unlocking the full potential of the web.</p>
             </div>
-            <div class="container md:w-[50%] mx-auto grid justify-center gap-2 grid-cols-2 lg:grid-cols-4">
-                <div class="flex flex-col items-center ">
-                    <div class="flex flex-col items-center ">
-                        <img className="w-[100px] md:w-[80px]" src={ReactLogo}></img>
+            <div className="flex justify-center mt-14">
+                <div class=" grid grid-cols-2 gap-12 mb-10 lg:grid-cols-4">
+                    <div class="text-center">
+                        <img className=" h-[80px] mx-auto " src={ReactLogo} />
                     </div>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="flex flex-col items-center ">
-                        <img className="w-[200px] md:w-[150px] " src={SimfonyLogo}></img>
+                    <div class="text-center">
+                        <img className=" h-[80px] mx-auto " src={PhpLogo} />
+
                     </div>
-                </div>
-                <div class="flex flex-col items-center ">
-                    <div class="flex flex-col items-center ">
-                        <img className="w-[75px]" src={JavaScriptLogo}></img>
+                    <div class="text-center">
+                        <img className=" h-[80px] mx-auto" src={JavaScriptLogo} />
+
                     </div>
-                </div>
-                <div class="flex flex-col items-center">
-                    <div class="flex flex-col ">
-                        <img className="w-[180px]" src={PhpLogo}></img>
+                    <div class="text-center">
+                        <img className="h-[80px] mx-auto " src={NodeJs} />
+
                     </div>
-                </div>
-                <div class="flex flex-col items-center ">
-                    <div class="flex flex-col items-center">
-                        <img className="w-[100px]" src={NodeJs}></img>
+                    <div class="text-center">
+                        <img className="h-[120px] mx-auto " src={MySql} />
+
                     </div>
-                </div>
-                <div class="flex flex-col items-center mt-[-20px]">
-                    <div class="flex flex-col items-center">
-                        <img className="w-[120px]" src={MySql}></img>
+                    <div class="text-center">
+                        <img className="h-[80px] mx-auto " src={SimfonyLogo} />
+
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
