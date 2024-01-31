@@ -45,7 +45,7 @@ const Homepage = () => {
                 <div className="md:px-28 mt-24 md:mt-40">
                     <OurSkills />
                 </div>
-                <div id="letsConnect" className="md:mt-20 ">
+                <div id="letsConnect" className=" mt-24 md:mt-20 ">
                     <LetsConnect />
                 </div>
             </div>
