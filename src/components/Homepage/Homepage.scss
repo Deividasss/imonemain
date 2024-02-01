@@ -7,7 +7,7 @@
 
 }
 
-.button {
+.mainButton {
     padding: 1em 2em;
     border: none;
     border-radius: 15px;
@@ -24,14 +24,14 @@
     background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
 }
 
-button:hover {
+.mainButton:hover {
     color: #ffffff;
     transform: scale(1.1);
     outline: 2px solid #ffffff;
     box-shadow: 4px 5px 17px -4px #268391;
 }
 
-button::before {
+.mainButton::before {
     content: "";
     position: absolute;
     left: -50px;
@@ -44,7 +44,7 @@ button::before {
     transition: width 1000ms;
 }
 
-button:hover::before {
+.mainButton:hover::before {
     width: 250%;
 }
 

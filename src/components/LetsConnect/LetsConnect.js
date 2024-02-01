@@ -19,7 +19,7 @@ const LetsConnect = () => {
                             <textarea placeholder="Message*" class="w-full h-32 bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"></textarea>
                         </div>
                         <div class="my-2 text-center">
-                            <button class="button mt-10 animate__animated animate__zoomIn  animate__delay-1s">Contact Us</button>
+                            <button class="mainButton mt-10 animate__animated animate__zoomIn  animate__delay-1s">Contact Us</button>
                         </div>
                     </div>
 

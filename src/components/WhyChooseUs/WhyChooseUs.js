@@ -4,11 +4,12 @@ import "../WhyChooseUs/WhyChooseUs.scss"
 const WhyChooseUs = () => {
     return (
         <div className="mt-24 md:mt-48 ">
-            <h1 className="mainTitle text-center relative text-5xl md:text-6xl px-2 md:px-40 pb-10 md:pb-20">Why Choose [Pavadinimas]</h1>
+            <div className="flex justify-center">
+            <h1 className="mainTitle text-center md:w-[1100px] relative text-5xl md:text-6xl pb-10 md:pb-20">Why Choose LithoByte</h1>
+            </div>
             <div className="">
                 <ul class="relative space-y-4 item-center">
-                    <div className="flex">
-                        <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
+                        <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
                             <div>
                                 <div className="flex">
                                     <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
@@ -17,8 +18,7 @@ const WhyChooseUs = () => {
                                 <span className="text-white text-[19px]">Our team of experienced developers stays abreast of the latest industry trends and technologies, delivering cutting-edge solutions.</span>
                             </div>
                         </li>
-                    </div>
-                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
+                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
                         <div>
                             <div className="flex">
                                 <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
                             <span className="text-white text-[20px]">We believe in open and transparent communication throughout the development process, keeping you informed and involved every step of the way.</span>
                         </div>
                     </li>
-                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
+                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
                         <div>
                             <div className="flex">
                                 <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
                             <span className="text-white text-[20px]">Count on us for reliable and responsive support. We are committed to ensuring your systems run smoothly at all times.</span>
                         </div>
                     </li>
-                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[50%] m-auto rounded-b-[50px] rounded-t-[15px]">
+                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
                         <div>
                             <div className="flex">
                                 <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
