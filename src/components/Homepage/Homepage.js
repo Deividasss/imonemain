@@ -50,7 +50,7 @@ const Homepage = () => {
                     <CustomersTestimonies />
                 </div>
             </div>
-            <div id="letsConnect" className="mt-24 md:mt-0 ">
+            <div id="letsConnect">
                 <LetsConnect />
             </div>
         </>

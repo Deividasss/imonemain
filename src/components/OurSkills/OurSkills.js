@@ -50,13 +50,13 @@ const OurSkills = () => {
 
                     </div>
                     <div class="text-center">
-                        <img className="h-[60px]" src={SimfonyLogo} />
+                        <img className="mt-5 md:mt-0 md:h-[60px]" src={SimfonyLogo} />
                     </div>
                     <div class="text-center">
                         <img className="h-[120px] mx-auto mt-[-30px]" src={WordPressLogo} />
                     </div>
                     <div class="text-center">
-                        <img className="h-[50px]" src={ReactNativeLogo} />
+                        <img className="mt-5 md:mt-0 md:h-[50px]" src={ReactNativeLogo} />
                     </div>
                 </div>
             </div>

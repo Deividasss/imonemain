@@ -39,6 +39,7 @@ const ServicesCards = () => {
                                         </div>
                                     </div>
                                     <p class="pt-4 px-4 flipTitle text-4xl">Development Consulting</p>
+                                    <p className="px-4 mt-10 flipTitle text-[19px]">Our seasoned team of web development consultants is dedicated to...</p>
                                 </div>
                                 <div class="flip-card-back ">
                                     <p className="px-4 flipTitle text-[19px]">Our seasoned team of web development consultants is dedicated to guiding you through the intricacies of the digital landscape, offering tailored solutions to elevate your business to new heights.</p>
@@ -60,6 +61,7 @@ const ServicesCards = () => {
                                         </div>
                                     </div>
                                     <p class="pt-4 px-4 flipTitle text-4xl">Custom Web Development</p>
+                                    <p className="px-4 mt-10 flipTitle text-[19px]">We build robust, scalable websites that serve...</p>
                                 </div>
                                 <div class="flip-card-back">
                                     <p className="px-4 flipTitle text-[19px]">Tailored web solutions that align perfectly with your business objectives. We build robust, scalable websites that serve as powerful tools for your online presence.</p>
@@ -93,6 +95,7 @@ const ServicesCards = () => {
                                         </div>
                                     </div>
                                     <p class="pt-4 px-4 flipTitle text-4xl">Mobile App Solutions</p>
+                                    <p className="px-4 mt-10 flipTitle text-[19px]">We prioritize user experience in every aspect of app development...</p>
                                 </div>
                                 <div class="flip-card-back">
                                     <p className="px-4 flipTitle text-[19px]">We prioritize user experience in every aspect of app development, ensuring that your application not only meets but exceeds user expectations.</p>
