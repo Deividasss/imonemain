@@ -7,18 +7,18 @@ import LetsConnect from "../LetsConnect/LetsConnect"
 
 const AccordionItem = ({ title, content, index, isOpen, toggleAccordion, description }) => (
     <div className="relative mb-3">
-        <div className="mb-0 bg-[#00416a8e] h-[250px] m-5">
+        <div className="mb-0 bg-[#00416a8e] h-[250px] rounded-[20px] flex items-center m-5">
             <button className="relative w-full p-4 text-left cursor-pointer" onClick={() => toggleAccordion(index)}>
-                <div className="servicesText">
-                    <span className="servicesText text-4xl">{title}</span>
-                    <p className="text-xl mt-5">{description}</p>
+                <div>
+                    <span className="servicesText text-3xl">{title}</span>
+                    <p className="text-xl mt-5 text-white">{description}</p>
                 </div>
-                <div className="flex justify-end">
-                    <p className="text-white flex text-xl mt-10">Learn More <span><FaAngleDown className="text-[30px] mt-1 ml-1" /></span></p>
+                <div className="flex justify-center">
+                    <p className="text-white text-xl mt-5">Learn More <span className="flex justify-center"><FaAngleDown className="text-[30px] mt-1 ml-1" /></span></p>
                 </div>
             </button>
         </div>
-        <div className={`overflow-hidden ${isOpen ? 'h-auto mx-5 bg-[#00416a] animate__animated animate__slideInDown' : 'h-0'}`}>
+        <div className={`overflow-hidden ${isOpen ? 'mt-[-20px] mx-5 bg-[#00416a] rounded-b-[20px] animate__animated animate__slideInDown' : 'h-0'}`}>
             <div className="p-4 leading-normal text-blue-gray-500/80 text-lg text-white animate__animated animate__slideInLeft">{content}</div>
         </div>
     </div>
