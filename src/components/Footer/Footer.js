@@ -50,14 +50,14 @@ const Footer = () => {
                         </a>
                     </div>
                     <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
-                        <a rel="noopener noreferrer" href="https://www.linkedin.com/in/deividas-ka%C5%A1%C4%97ta-1888aa193/" target="_blank" title="Email" class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-gray-900">
+                        <a rel="noopener noreferrer" href="https://www.linkedin.com/in/deividas-ka%C5%A1%C4%97ta-1888aa193/" target="_blank" title="Email" class="flex items-center justify-center w-10 h-10 rounded-full">
                             <FaLinkedin className="text-white text-5xl" />
                         </a>
-                        <a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank" title="Twitter" class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-gray-900">
+                        <a rel="noopener noreferrer" href="https://www.facebook.com/" target="_blank" title="Twitter" class="flex items-center justify-center w-10 h-10 rounded-full">
                             <FaFacebookSquare className="text-white text-5xl" />
                         </a>
-                        <a rel="noopener noreferrer" href="https://www.instagram.com/"  target="_blank" title="GitHub" class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-gray-900">
-                            <FaInstagramSquare className="text-white text-5xl"/>
+                        <a rel="noopener noreferrer" href="https://www.instagram.com/" target="_blank" title="GitHub" class="flex items-center justify-center w-10 h-10 rounded-full">
+                            <FaInstagramSquare className="text-white text-5xl" />
                         </a>
                     </div>
                 </div>

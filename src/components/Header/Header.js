@@ -50,7 +50,7 @@ const Header = () => {
                                     <a href="/" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaHouseChimney /></span>Home</a>
                                 </li>
                                 <li>
-                                    <a href="#" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaCode /></span>Services</a>
+                                    <a href="/services" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaCode /></span>Services</a>
                                 </li>
                                 <li>
                                     <a href="#" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaHive /></span>About</a>
