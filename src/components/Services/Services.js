@@ -83,7 +83,7 @@ const Services = () => {
                     <AccordionItem
                         title="Unleash Potential with Our Mobile App Development Solutions"
                         description="Empower your business in the palm of your users' hands. Our mobile app development services blend creativity and technical prowess to create intuitive, feature-rich applications"
-                        content="Embark on a mobile journey of innovation with [Your Company Name]. In a world where digital interactions are increasingly mobile, having a powerful and user-friendly mobile app is essential for staying ahead of the curve. Our mobile app development services are designed to bring your unique ideas to life, delivering not just an app, but an immersive and seamless digital experience."
+                        content="Embark on a mobile journey of innovation with LithoByte. In a world where digital interactions are increasingly mobile, having a powerful and user-friendly mobile app is essential for staying ahead of the curve. Our mobile app development services are designed to bring your unique ideas to life, delivering not just an app, but an immersive and seamless digital experience."
                         content2={"At LithoByte, we understand that a successful mobile app goes beyond just coding. It's about understanding your business objectives, your target audience, and creating an application that not only meets but exceeds user expectations. Our team of experienced mobile app developers is proficient in both iOS and Android platforms, ensuring that your app reaches a wide audience."}
                         index={2}
                         isOpen={openItems.includes(2)}
