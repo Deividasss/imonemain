@@ -5,21 +5,29 @@ import { FaAngleDown } from "react-icons/fa6";
 import LetsConnect from "../LetsConnect/LetsConnect"
 
 
-const AccordionItem = ({ title, content, index, isOpen, toggleAccordion, description }) => (
+const AccordionItem = ({ title, content, index, isOpen, toggleAccordion, description, content2, scrollIntoView }) => (
+
     <div className="relative mb-3">
-        <div className="mb-0 bg-[#00416a8e] h-[250px] rounded-[20px] flex items-center m-5">
-            <button className="relative w-full p-4 text-left cursor-pointer" onClick={() => toggleAccordion(index)}>
+        <div className="mb-0 bg-[#00416a8e] md:h-[300px] h-[400px] rounded-[20px] flex items-center m-5">
+            <div className="relative w-full p-4 text-left">
                 <div>
-                    <span className="servicesText text-3xl">{title}</span>
+                    <div className="flex">
+                        <img className="h-[70px] mr-5" src={Logo}></img>
+                        <span className="servicesText text-3xl">{title}</span>
+                    </div>
                     <p className="text-xl mt-5 text-white">{description}</p>
                 </div>
-                <div className="flex justify-center">
-                    <p className="text-white text-xl mt-5">Learn More <span className="flex justify-center"><FaAngleDown className="text-[30px] mt-1 ml-1" /></span></p>
-                </div>
-            </button>
+            </div>
+        </div>
+        <div className={`flex justify-center ${isOpen ? 'hidden' : 'visible mt-[-20px] mx-5 bg-[#00416a] rounded-b-[20px]'}`}>
+            <p className="text-white text-xl py-3 servicesText hover:scale-[115%] hover:cursor-pointer" onClick={() => toggleAccordion(index)}>Learn More <span className="flex justify-center"><FaAngleDown className="text-[30px]" /></span></p>
         </div>
         <div className={`overflow-hidden ${isOpen ? 'mt-[-20px] mx-5 bg-[#00416a] rounded-b-[20px] animate__animated animate__slideInDown' : 'h-0'}`}>
             <div className="p-4 leading-normal text-blue-gray-500/80 text-lg text-white animate__animated animate__slideInLeft">{content}</div>
+            <div className="p-4 leading-normal text-blue-gray-500/80 text-lg text-white animate__animated animate__slideInLeft">{content2}</div>
+            <div className="flex justify-center">
+                <button className="mainButton my-5 animate__animated animate__zoomIn animate__delay-1s" onClick={() => scrollIntoView()}>Contact Us</button>
+            </div>
         </div>
     </div>
 );
@@ -37,6 +45,16 @@ const Services = () => {
         );
     };
 
+    const scrollToTarget = () => {
+        const targetBlock = document.getElementById('letsConnect');
+
+        if (targetBlock) {
+            targetBlock.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    };
+
     return (
         <>
             <div className="relative md:px-[10%] px-5 md:text-left text-center">
@@ -51,40 +69,46 @@ const Services = () => {
                 </div>
                 <div className="mt-20 grid grid-row md:grid-cols-2">
                     <AccordionItem
-                        title="Custom Web Development"
-                        description="We build robust, scalable websites that serve..."
-                        content="Tailored web solutions that align perfectly with your business objectives. We build robust, scalable websites that serve as powerful tools for your online presence."
+                        title="Elevate Your Online Presence with Our Web Development Expertise"
+                        description="Unlock the full potential of your online identity with our bespoke web development services. Our team of skilled developers blends creativity with functionality to deliver tailored solutions that resonate with your brand"
+                        content={`From the initial concept to the final launch, we collaborate closely with you to understand your goals, preferences, and target audience. Our development process integrates the latest industry standards, ensuring your website is responsive, scalable, and optimized for search engines.`}
+                        content2={"We specialize in crafting user-friendly interfaces that enhance the overall user experience, fostering customer engagement and satisfaction. At LithoByte, we don't just build websites; we create digital ecosystems that empower your brand. Our commitment to excellence extends beyond the development phase, with ongoing support and maintenance services to keep your digital asset running smoothly."}
                         index={1}
                         isOpen={openItems.includes(1)}
                         toggleAccordion={toggleAccordion}
+                        scrollIntoView={scrollToTarget}
                     />
                     <AccordionItem
-                        title="Mobile App Solutions"
-                        description="We prioritize user experience in every aspect of app development..."
-                        content="We prioritize user experience in every aspect of app development, ensuring that your application not only meets but exceeds user expectations."
+                        title="Unleash Potential with Our Mobile App Development Solutions"
+                        description="Empower your business in the palm of your users' hands. Our mobile app development services blend creativity and technical prowess to create intuitive, feature-rich applications"
+                        content="Embark on a mobile journey of innovation with [Your Company Name]. In a world where digital interactions are increasingly mobile, having a powerful and user-friendly mobile app is essential for staying ahead of the curve. Our mobile app development services are designed to bring your unique ideas to life, delivering not just an app, but an immersive and seamless digital experience."
+                        content2={"At LithoByte, we understand that a successful mobile app goes beyond just coding. It's about understanding your business objectives, your target audience, and creating an application that not only meets but exceeds user expectations. Our team of experienced mobile app developers is proficient in both iOS and Android platforms, ensuring that your app reaches a wide audience."}
                         index={2}
                         isOpen={openItems.includes(2)}
                         toggleAccordion={toggleAccordion}
+                        scrollIntoView={scrollToTarget}
                     />
                     <AccordionItem
-                        title="Development Consulting"
-                        description="Our seasoned team of web development consultants is dedicated to..."
-                        content="Our seasoned team of web development consultants is dedicated to guiding you through the intricacies of the digital landscape, offering tailored solutions to elevate your business to new heights."
+                        title="Strategic Development Consulting: Transforming Visions into Digital Realities"
+                        description="Our seasoned consultants blend industry insights with technical expertise to provide strategic guidance for web and mobile projects. From ideation to execution, we're your partners in turning ideas into impactful digital solutions"
+                        content="At LithoByte, we believe in more than just creating digital assets; we empower businesses to harness the full potential of technology. Our team of seasoned consultants collaborates with you to understand your business objectives, industry dynamics, and user expectations. Armed with this knowledge, we craft a customized development roadmap that aligns with your goals and positions you for success."
                         index={3}
                         isOpen={openItems.includes(3)}
                         toggleAccordion={toggleAccordion}
+                        scrollIntoView={scrollToTarget}
                     />
-                    <AccordionItem
+                    {/* <AccordionItem
                         title="Custom Web Development"
                         description="We build robust, scalable websites that serve..."
                         content="Tailored web solutions that align perfectly with your business objectives. We build robust, scalable websites that serve as powerful tools for your online presence."
                         index={4}
                         isOpen={openItems.includes(4)}
                         toggleAccordion={toggleAccordion}
-                    />
+                        scrollIntoView={scrollToTarget}
+                    /> */}
                 </div>
             </div>
-            <div>
+            <div id="letsConnect">
                 <LetsConnect />
             </div>
         </>
