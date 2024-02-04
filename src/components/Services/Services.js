@@ -92,7 +92,7 @@ const Services = () => {
                     />
                     <AccordionItem
                         title="Strategic Development Consulting: Transforming Visions into Digital Realities"
-                        description="Our seasoned consultants blend industry insights with technical expertise to provide strategic guidance for web and mobile projects. From ideation to execution, we're your partners in turning ideas into impactful digital solutions"
+                        description="Our seasoned consultants blend industry insights with technical expertise to provide strategic guidance for web and mobile projects."
                         content="At LithoByte, we believe in more than just creating digital assets; we empower businesses to harness the full potential of technology. Our team of seasoned consultants collaborates with you to understand your business objectives, industry dynamics, and user expectations. Armed with this knowledge, we craft a customized development roadmap that aligns with your goals and positions you for success."
                         index={3}
                         isOpen={openItems.includes(3)}
