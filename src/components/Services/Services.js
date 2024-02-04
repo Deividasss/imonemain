@@ -8,11 +8,13 @@ import LetsConnect from "../LetsConnect/LetsConnect"
 const AccordionItem = ({ title, content, index, isOpen, toggleAccordion, description, content2, scrollIntoView }) => (
 
     <div className="relative mb-3">
-        <div className="mb-0 bg-[#00416a8e] md:h-[300px] h-[400px] rounded-[20px] flex items-center m-5">
+        <div className="mb-0 bg-[#00416a8e] md:h-[300px] h-[500px] rounded-[20px] flex items-center m-5">
             <div className="relative w-full p-4 text-left">
                 <div>
-                    <div className="flex">
-                        <img className="h-[70px] mr-5" src={Logo}></img>
+                    <div className="md:flex">
+                        <div className="flex justify-center mb-5">
+                            <img className="md:h-[70px] h-[100px]" src={Logo}></img>
+                        </div>
                         <span className="servicesText text-3xl">{title}</span>
                     </div>
                     <p className="text-xl mt-5 text-white">{description}</p>
