@@ -11,7 +11,7 @@ const AccordionItem = ({ title, content, index, isOpen, toggleAccordion, descrip
         <div className="mb-0 bg-[#00416a8e] md:h-[300px] h-[500px] rounded-[20px] m-5">
             <div className="relative w-full p-4 text-left">
                 <div>
-                    <div className="md:flex mt-5">
+                    <div className="md:flex md:mt-5 mt-0">
                         <div className="md:block flex justify-center mb-5 mr-5 ">
                             <img className="md:h-[70px] w-[100px] h-[100px]" src={Logo}></img>
                         </div>
