@@ -35,8 +35,8 @@ const AboutUs = () => {
                 <div className="md:max-w-[1300px]">
                     <div className="md:pt-[20%] pt-[35%] md:flex">
                         <div className="">
-                            <h1 className="servicesText text-6xl animate__animated animate__zoomIn animate__delay-1s">Crafting Digital Excellence, Shaping Tomorrow's Technology</h1>
-                            <p className="servicesText text-2xl mt-6 animate__animated animate__zoomIn animate__delay-1s">Embark on a tech journey with TorusByte, a vibrant force in the IT realm, despite our recent debut. Though our company is young, our spirit is seasoned with ambition, and a team of dedicated professionals stands at the core of our success</p>
+                            <h1 className="servicesText md:text-6xl text-3xl animate__animated animate__zoomIn animate__delay-1s">Crafting Digital Excellence, Shaping Tomorrow's Technology</h1>
+                            <p className="servicesText text-xl mt-6 animate__animated animate__zoomIn animate__delay-1s">Embark on a tech journey with TorusByte, a vibrant force in the IT realm, despite our recent debut. Though our company is young, our spirit is seasoned with ambition, and a team of dedicated professionals stands at the core of our success</p>
                             <div className="md:mx-16 md:mt-10">
                                 <button className="mainButton my-5 animate__animated animate__zoomIn animate__delay-1s" onClick={() => scrollToTarget()}>Contact Us</button>
                             </div>
