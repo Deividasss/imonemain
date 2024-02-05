@@ -2,7 +2,7 @@ import "../Header/Header.scss"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 import { FaHouseChimney, FaHive, FaCode, FaAngellist, FaBars } from "react-icons/fa6";
-import MainLogo from "../../assets/image/mainLogo.png"
+import MainLogo from "../../assets/image/toruslogo.png"
 
 const Header = () => {
 

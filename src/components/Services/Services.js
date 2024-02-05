@@ -1,5 +1,5 @@
 import "../Services/Services.scss"
-import Logo from "../../assets/image/favicon.png"
+import Logo from "../../assets/image/torusbiglogo.png"
 import { useState, useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa6";
 import LetsConnect from "../LetsConnect/LetsConnect"
@@ -8,7 +8,7 @@ import LetsConnect from "../LetsConnect/LetsConnect"
 const AccordionItem = ({ title, content, index, isOpen, toggleAccordion, description, content2, scrollIntoView }) => (
 
     <div className="relative mb-3 ">
-        <div className="mb-0 bg-[#00416a8e] pb-10 px-10 rounded-[20px] m-5">
+        <div className="mb-0 bg-[#00416a8e] pb-10 md:px-10 rounded-[20px] m-5">
             <div className="relative w-full p-4 text-left">
                 <div>
                     <div className="md:flex md:mt-5 mt-0">
@@ -84,7 +84,7 @@ const Services = () => {
                             title="Elevate Your Online Presence with Our Web Development Expertise"
                             description="Unlock the full potential of your online identity with our bespoke web development services. Our team of skilled developers blends creativity with functionality to deliver tailored solutions that resonate with your brand"
                             content={`From the initial concept to the final launch, we collaborate closely with you to understand your goals, preferences, and target audience. Our development process integrates the latest industry standards, ensuring your website is responsive, scalable, and optimized for search engines.`}
-                            content2={"We specialize in crafting user-friendly interfaces that enhance the overall user experience, fostering customer engagement and satisfaction. At LithoByte, we don't just build websites; we create digital ecosystems that empower your brand. Our commitment to excellence extends beyond the development phase, with ongoing support and maintenance services to keep your digital asset running smoothly."}
+                            content2={"We specialize in crafting user-friendly interfaces that enhance the overall user experience, fostering customer engagement and satisfaction. At TorusByte, we don't just build websites; we create digital ecosystems that empower your brand. Our commitment to excellence extends beyond the development phase, with ongoing support and maintenance services to keep your digital asset running smoothly."}
                             index={1}
                             isOpen={openItems.includes(1)}
                             toggleAccordion={toggleAccordion}
@@ -93,8 +93,8 @@ const Services = () => {
                         <AccordionItem
                             title="Unleash Potential with Our Mobile App Development Solutions"
                             description="Empower your business in the palm of your users' hands. Our mobile app development services blend creativity and technical prowess to create intuitive, feature-rich applications"
-                            content="Embark on a mobile journey of innovation with LithoByte. In a world where digital interactions are increasingly mobile, having a powerful and user-friendly mobile app is essential for staying ahead of the curve. Our mobile app development services are designed to bring your unique ideas to life, delivering not just an app, but an immersive and seamless digital experience."
-                            content2={"At LithoByte, we understand that a successful mobile app goes beyond just coding. It's about understanding your business objectives, your target audience, and creating an application that not only meets but exceeds user expectations. Our team of experienced mobile app developers is proficient in both iOS and Android platforms, ensuring that your app reaches a wide audience."}
+                            content="Embark on a mobile journey of innovation with TorusByte. In a world where digital interactions are increasingly mobile, having a powerful and user-friendly mobile app is essential for staying ahead of the curve. Our mobile app development services are designed to bring your unique ideas to life, delivering not just an app, but an immersive and seamless digital experience."
+                            content2={"At TorusByte, we understand that a successful mobile app goes beyond just coding. It's about understanding your business objectives, your target audience, and creating an application that not only meets but exceeds user expectations. Our team of experienced mobile app developers is proficient in both iOS and Android platforms, ensuring that your app reaches a wide audience."}
                             index={2}
                             isOpen={openItems.includes(2)}
                             toggleAccordion={toggleAccordion}
@@ -103,7 +103,7 @@ const Services = () => {
                         <AccordionItem
                             title="Strategic Development Consulting: Transforming Visions into Digital Realities"
                             description="Our seasoned consultants blend industry insights with technical expertise to provide strategic guidance for web and mobile projects."
-                            content="At LithoByte, we believe in more than just creating digital assets; we empower businesses to harness the full potential of technology. Our team of seasoned consultants collaborates with you to understand your business objectives, industry dynamics, and user expectations. Armed with this knowledge, we craft a customized development roadmap that aligns with your goals and positions you for success."
+                            content="At TorusByte, we believe in more than just creating digital assets; we empower businesses to harness the full potential of technology. Our team of seasoned consultants collaborates with you to understand your business objectives, industry dynamics, and user expectations. Armed with this knowledge, we craft a customized development roadmap that aligns with your goals and positions you for success."
                             index={3}
                             isOpen={openItems.includes(3)}
                             toggleAccordion={toggleAccordion}

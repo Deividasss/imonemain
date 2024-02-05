@@ -1,5 +1,5 @@
 import "../CustomersTestimonies/CustomersTestimonies.scss"
-import FavIcon from "../../assets/image/favicon.png"
+import FavIcon from "../../assets/image/torusbiglogo.png"
 
 const CustomersTestimonies = () => {
     return (
@@ -26,7 +26,7 @@ const CustomersTestimonies = () => {
                                             <h3 class="text-2xl testimoniesTitle">Domantas. M</h3>
                                         </div>
                                     </div>
-                                    <p class="leading-normal text-gray-300 text-lg">From the initial consultation to the final delivery, LithoByte demonstrated professionalism, expertise, and creativity. </p>
+                                    <p class="leading-normal text-gray-300 text-lg">From the initial consultation to the final delivery, TorusByte demonstrated professionalism, expertise, and creativity. </p>
                                 </div>
                             </div>
                         </li>

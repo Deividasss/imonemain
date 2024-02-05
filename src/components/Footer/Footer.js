@@ -1,5 +1,5 @@
 import "../Footer/Footer.scss"
-import MainLogo from "../../assets/image/mainLogo.png"
+import MainLogo from "../../assets/image/toruslogo.png"
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
