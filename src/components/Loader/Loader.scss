@@ -1,7 +1,7 @@
 .cubeloader {
     --duration: 3s;
-    --primary: rgb(183, 0, 255);
-    --primary-light: #d000ff;
+    --primary: #2f8dc88e;
+    --primary-light: #1d587c8e;
     --primary-rgba: rgba(39, 94, 254, 0);
     width: 200px;
     height: 320px;
@@ -18,16 +18,28 @@
   .cubeloader:before, .cubeloader:after {
     --r: 20.5deg;
     content: "";
-    width: 320px;
+    width: 500px;
     height: 140px;
     position: absolute;
     right: 32%;
-    bottom: -11px;
+    bottom: -100px;
+    padding-bottom: 300px;
     /* change the back groung color on switching from light to dark mood */
     background: #00416a;
     transform: translateZ(200px) rotate(var(--r));
     -webkit-animation: mask var(--duration) linear forwards infinite;
     animation: mask var(--duration) linear forwards infinite;
+  }
+
+  @media (max-width: 768px) {
+    .cubeloader:before,
+    .cubeloader:after {
+      width: 200px; /* Adjust width for smaller screens */
+      height: 80px; /* Adjust height for smaller screens */
+      right: 10%; /* Adjust position for smaller screens */
+      bottom: -50px; /* Adjust position for smaller screens */
+      padding-bottom: 150px; /* Adjust padding for smaller screens */
+    }
   }
   
   .cubeloader:after {
@@ -39,7 +51,7 @@
   .cubeloader .ground {
     position: absolute;
     left: -50px;
-    bottom: -120px;
+    bottom: -80px;
     transform-style: preserve-3d;
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
   }
@@ -762,5 +774,3 @@
       opacity: 0;
     }
   }
-
-    
