@@ -6,6 +6,7 @@ import "../src/app.scss"
 import LetsConnect from "./components/LetsConnect/LetsConnect";
 import Footer from "./components/Footer/Footer";
 import Services from "./components/Services/Services";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route>
                         <Route exact path='/' element={<Homepage />} />
                         <Route exact path='services' element={<Services />} />
+                        <Route exact path='aboutUs' element={<AboutUs />} />
                         <Route exact path='letsConnect' element={<LetsConnect />} />
                     </Route>
                 </Routes>

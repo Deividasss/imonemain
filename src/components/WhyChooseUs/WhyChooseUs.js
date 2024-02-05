@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     return (
         <div className="mt-24 md:mt-48 ">
             <div className="flex justify-center">
-            <h1 className="mainTitle text-center md:w-[1100px] relative text-5xl md:text-6xl pb-10 md:pb-20">Why Choose LithoByte</h1>
+            <h1 className="mainTitle text-center relative text-5xl md:text-6xl pb-10 md:pb-20">Why Choose LithoByte</h1>
             </div>
             <div className="">
                 <ul class="relative space-y-4 item-center">

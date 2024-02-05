@@ -30,7 +30,7 @@ const CustomersTestimonies = () => {
                                 </div>
                             </div>
                         </li>
-                        <li class="text-sm leading-6">
+                        {/* <li class="text-sm leading-6">
                             <div class="relative group">
                                 <div
                                     class="relative p-6 space-y-6 leading-none rounded-lg bg-[#00416a8e]">
@@ -44,10 +44,10 @@ const CustomersTestimonies = () => {
                                     <p class="leading-normal text-gray-300 text-md">Find God.</p>
                                 </div>
                             </div>
-                        </li>
+                        </li> */}
                     </ul>
                     <ul class="space-y-8">
-                        <li class="text-sm leading-6">
+                        {/* <li class="text-sm leading-6">
                             <div class="relative group">
                                 <div
                                     class="relative p-6 space-y-6 leading-none rounded-lg bg-[#00416a8e]">
@@ -76,10 +76,10 @@ const CustomersTestimonies = () => {
                                     <p class="leading-normal text-gray-300 text-md">Find God.</p>
                                 </div>
                             </div>
-                        </li>
+                        </li> */}
                     </ul>
                     <ul class="space-y-8">
-                        <li class="text-sm leading-6">
+                        {/* <li class="text-sm leading-6">
                             <div class="relative group">
                                 <div
                                     class="relative p-6 space-y-6 leading-none rounded-lg bg-[#00416a8e]">
@@ -108,7 +108,7 @@ const CustomersTestimonies = () => {
                                     <p class="leading-normal text-gray-300 text-md">Find God.</p>
                                 </div>
                             </div>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

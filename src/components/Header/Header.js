@@ -53,7 +53,7 @@ const Header = () => {
                                     <a href="/services" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaCode /></span>Services</a>
                                 </li>
                                 <li>
-                                    <a href="#" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaHive /></span>About</a>
+                                    <a href="/aboutUs" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaHive /></span>About</a>
                                 </li>
                                 <li>
                                     <a href="/letsConnect" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaAngellist /></span>Contact</a>
