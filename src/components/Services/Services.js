@@ -74,8 +74,8 @@ const Services = () => {
                 <div className="md:max-w-[1300px]">
                     <div className="md:pt-[20%] pt-[35%] md:flex">
                         <div className="">
-                            <h1 className="servicesText  text-6xl animate__animated animate__zoomIn animate__delay-1s">Future-Ready IT Solutions for Today's Challenges</h1>
-                            <p className="servicesText  text-2xl mt-6 animate__animated animate__zoomIn animate__delay-1s">Elevate your business operations to the next level with our comprehensive IT services. We focus on delivering seamless and efficient solutions, including network management, system integration, and 24/7 support. Experience unparalleled reliability and performance with our advanced IT offerings.</p>
+                            <h1 className="servicesText  md:text-6xl text-4xl animate__animated animate__zoomIn animate__delay-1s">Future-Ready IT Solutions for Today's Challenges</h1>
+                            <p className="servicesText  md:text-2xl text-xl mt-6 animate__animated animate__zoomIn animate__delay-1s">Elevate your business operations to the next level with our comprehensive IT services. We focus on delivering seamless and efficient solutions, including network management, system integration, and 24/7 support. Experience unparalleled reliability and performance with our advanced IT offerings.</p>
                         </div>
                         <img className="md:h-[350px] px-10 animate__animated animate__zoomIn animate__delay-1s" src={Logo}></img>
                     </div>
