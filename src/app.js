@@ -20,30 +20,33 @@ function App() {
         return () => clearTimeout(timeoutId);
     }, []);
 
+    useEffect(() => {
+        if (!loading) {
+            document.querySelector('.fade-in-content').classList.add('show');
+        }
+    }, [loading]);
+
     return (
-        <><Suspense fallback={
-            <Loader />
-        }>
-            {loading ? (
-                <Loader />
-            ) : (
-                <>
-                    <Canva />
-                    <Router>
-                        <Header />
-                        <Routes>
-                            <Route>
-                                <Route exact path='/' element={<Homepage />} />
-                                <Route exact path='services' element={<Services />} />
-                                <Route exact path='aboutUs' element={<AboutUs />} />
-                                <Route exact path='letsConnect' element={<LetsConnect />} />
-                            </Route>
-                        </Routes>
-                        <Footer />
-                    </Router >
-                </>
-            )}
-        </Suspense>
+        <>
+            <Suspense fallback={<Loader />}>
+                {loading ? (
+                    <Loader />
+                ) : (
+                    <div className="fade-in-content">
+                        <Canva />
+                        <Router>
+                            <Header />
+                            <Routes>
+                                <Route path='/' element={<Homepage />} />
+                                <Route path='services' element={<Services />} />
+                                <Route path='aboutUs' element={<AboutUs />} />
+                                <Route path='letsConnect' element={<LetsConnect />} />
+                            </Routes>
+                            <Footer />
+                        </Router>
+                    </div>
+                )}
+            </Suspense>
         </>
     );
 }

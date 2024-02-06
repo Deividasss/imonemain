@@ -1,7 +1,52 @@
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
+import React, { useState } from 'react';
 
 const LetsConnect = () => {
-    
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: '',
+    });
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        console.log('Form submitted:', formData);
+
+        // try {
+        //   await axios.post('https://api.sendgrid.com/v3/mail/send', {
+        //     personalizations: [
+        //       {
+        //         to: [
+        //           {
+        //             email: 'recipient@example.com', // Your email address to receive the messages
+        //           },
+        //         ],
+        //         subject: 'New Contact Form Submission',
+        //       },
+        //     ],
+        //     from: {
+        //       email: 'sender@example.com', // Your SendGrid-verified email address
+        //     },
+        //     content: [
+        //       {
+        //         type: 'text/plain',
+        //         value: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
+        //       },
+        //     ],
+        //   });
+
+        //   // Optionally, you can handle success and show a success message to the user
+        // } catch (error) {
+        //   console.error('Error sending email:', error);
+        //   // Handle error and show an error message to the user
+        // }
+    };
+
     return (
         <>
             <div class="flex relative justify-center md:items-center w-screen pt-20 md:pt-52 animate__animated animate__zoomIn animate__delay-1s">
@@ -10,18 +55,35 @@ const LetsConnect = () => {
                         <div class="flex justify-center">
                             <h1 class="font-bold mockupTitle uppercase text-5xl animate__animated animate__zoomIn animate__delay-1s">Let's Connect</h1>
                         </div>
-                        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
-                            <input class="w-full bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"
-                                type="text" placeholder="First Name*" />
-                            <input class="w-full bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"
-                                type="email" placeholder="Email*" />
-                        </div>
-                        <div class="my-4">
-                            <textarea placeholder="Message*" class="w-full h-32 bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"></textarea>
-                        </div>
-                        <div class="my-2 text-center">
-                            <button class="mainButton mt-10 animate__animated animate__zoomIn animate__delay-1s">Contact Us</button>
-                        </div>
+                        <form onSubmit={handleSubmit}>
+                            <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+                                <input
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleChange} c
+                                    class="w-full bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"
+                                    type="text"
+                                    placeholder="First Name*" />
+                                <input
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    class="w-full bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"
+                                    type="email"
+                                    placeholder="Email*" />
+                            </div>
+                            <div class="my-4">
+                                <textarea
+                                    name="message"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    placeholder="Message*"
+                                    class="w-full h-32 bg-[#00416A] bg-opacity-45 text-white mt-2 p-3 placeholder-white border-white border-2 rounded-lg focus:outline-2 focus:outline-none focus:shadow-outline"></textarea>
+                            </div>
+                            <div class="my-2 text-center">
+                                <button class="mainButton mt-10 animate__animated animate__zoomIn animate__delay-1s">Contact Us</button>
+                            </div>
+                        </form>
                     </div>
 
                     <div

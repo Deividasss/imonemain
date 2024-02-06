@@ -14,8 +14,17 @@ body,
   scroll-snap-destination: 0% 100%;
 }
 
-body::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+body {
+  background-color: #00416a;
+  overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 10px; 
+  z-index: 10000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff3b;
+  border-radius: 5px; 
+}
