@@ -3,51 +3,114 @@ import "../WhyChooseUs/WhyChooseUs.scss"
 
 const WhyChooseUs = () => {
     return (
-        <div className="mt-24 md:mt-48 ">
-            <div className="flex justify-center">
-            <h1 className="mainTitle text-center relative text-5xl md:text-6xl pb-10 md:pb-20">Why Choose TorusByte</h1>
-            </div>
-            <div className="">
-                <ul class="relative space-y-4 item-center">
-                        <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
-                            <div>
-                                <div className="flex">
-                                    <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
-                                    <p className="listText text-[25px] mb-2">Expert Development Team</p>
+        <section class="mt-24 md:mt-48">
+            <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+                <div class="container mx-auto">
+                    <div class="text-center">
+                        <p class="mainTitle text-center relative text-5xl md:text-6xl md:pb-10">Why TorusByte?</p>
+                        <p className="text-xl md:text-3xl mainTitle md:mt-0 mt-5">Unleashing the Power of Precision in Digital Innovation</p>
+                    </div>
+                    <div class="flex flex-wrap mt-12 px-6 p-6 bg-[#00416a8e] rounded-2xl">
+                        <div class="w-full border-b-[6px] md:w-1/2 border-r-[6px] lg:w-1/3 p-8">
+                            <div class="flex items-center mb-6 md:text-left">
+                                <div id="page">
+                                    <div id="howContainer">
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                    </div>
                                 </div>
-                                <span className="text-white text-[19px]">Our team of experienced developers stays abreast of the latest industry trends and technologies, delivering cutting-edge solutions.</span>
+                                <div class="listText md:text-[28px] text-[24px] ml-16">Innovation at Every Turn</div>
                             </div>
-                        </li>
-                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
-                        <div>
-                            <div className="flex">
-                                <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
-                                <p className="listText text-[25px] mb-2">Transparent Communication</p>
-                            </div>
-                            <span className="text-white text-[20px]">We believe in open and transparent communication throughout the development process, keeping you informed and involved every step of the way.</span>
+                            <p class="leading-loose text-white md:text-[19px] text-[17px]">
+                                Stay ahead in the digital landscape with our commitment to innovation. We leverage the latest technologies, development methodologies, and design trends to create forward-thinking, future-proof solutions that give your business a competitive edge.
+                            </p>
                         </div>
-                    </li>
-                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
-                        <div>
-                            <div className="flex">
-                                <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
-                                <p className="listText text-[25px] mb-2">Reliable Support</p>
+                        <div class="w-full border-b-[6px] md:w-1/2 lg:w-1/3 border-l-[6px] md:border-l-0 md:border-r-[6px] p-8">
+                            <div class="flex items-center mb-6 md:text-left">
+                                <div id="page">
+                                    <div id="howContainer">
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                    </div>
+                                </div>
+                                <div class="listText md:text-[28px] text-[24px] ml-16">Transparent Communication</div>
                             </div>
-                            <span className="text-white text-[20px]">Count on us for reliable and responsive support. We are committed to ensuring your systems run smoothly at all times.</span>
+                            <p class="leading-loose text-white md:text-[19px] text-[17px]">
+                                Stay informed and engaged throughout the development process. We prioritize transparent communication, providing regular updates and ensuring that you have full visibility into the progress of your project.
+                            </p>
                         </div>
-                    </li>
-                    <li class="flex items-center justify-center bg-[#00416a8e] border-b-[10px] p-7 w-[90%] md:w-[650px] m-auto rounded-b-[50px] rounded-t-[15px]">
-                        <div>
-                            <div className="flex">
-                                <FaCheck className="text-6xl mt-[-15px] pr-3 text-[#F08080] animate__animated animate__heartBeat animate__infinite animate__slower" />
-                                <p className="listText text-[25px] mb-2">Collaborative Partnership</p>
+                        <div class="w-full border-b-[6px] border-r-[6px] md:border-r-0 md:w-1/2 lg:w-1/3 p-8">
+                            <div class="flex items-center mb-6 md:text-left">
+                                <div id="page">
+                                    <div id="howContainer">
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                    </div>
+                                </div>
+                                <div class="listText md:text-[28px] text-[24px] ml-16">Reliable 24/7 Support</div>
                             </div>
-                            <span className="text-white text-[20px]">Consider us not just as a service provider but as a collaborative partner invested in your success, offering strategic insights and guidance.</span>
+                            <p class="leading-loose text-white md:text-[19px] text-[17px]">
+                                Your success is our priority, and that commitment extends beyond office hours. With round-the-clock support, we ensure prompt assistance, troubleshooting, and resolution of any issues, providing peace of mind and continuity for your business operations.
+                            </p>
                         </div>
-                    </li>
-                </ul>
+                        <div class="w-full border-b-[6px] md:w-1/2 lg:w-1/3 border-l-[6px] md:border-l-0 md:border-r-[6px] lg:border-b-0 p-8">
+                            <div class="flex items-center mb-6 md:text-left">
+                                <div id="page">
+                                    <div id="howContainer">
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                    </div>
+                                </div>
+                                <div class="listText md:text-[28px] text-[24px] ml-16">Collaborative Partnership</div>
+                            </div>
+                            <p class="leading-loose text-white md:text-[19px] text-[17px]">
+                                At TorusByte, we believe in collaboration. Your vision is at the heart of our development process. We work closely with you to understand your goals, ensuring that every line of code and design element aligns seamlessly with your business objectives.
+                            </p>
+                        </div>
+                        <div class="w-full border-b-[6px] md:w-1/2 border-r-[6px] lg:w-1/3 lg:border-b-0 p-8">
+                            <div class="flex items-center mb-6 md:text-left">
+                                <div id="page">
+                                    <div id="howContainer">
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                    </div>
+                                </div>
+                                <div class="listText md:text-[28px] text-[24px] ml-16">Commitment to Quality</div>
+                            </div>
+                            <p class="leading-loose text-white md:text-[19px] text-[17px]">
+                                Quality is non-negotiable for us. From the initial concept to the final deployment, we adhere to the highest standards to deliver robust, reliable, and user-friendly applications that exceed expectations.
+                            </p>
+                        </div>
+                        <div class="w-full border-l-[6px] md:border-l-0 md:w-1/2 lg:w-1/3 p-8">
+                            <div class="flex items-center mb-6 md:text-left">
+                                <div id="page">
+                                    <div id="howContainer">
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                        <div id="howRing"></div>
+                                    </div>
+                                </div>
+                                <div class="listText md:text-[28px] text-[24px] ml-16">Post-Launch Support</div>
+                            </div>
+                            <p class="leading-loose text-white md:text-[19px] text-[17px]">
+                                Our relationship doesn't end with the launch of your application. We provide comprehensive post-launch support, ensuring that your solution continues to perform optimally and evolves alongside your business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section >
     )
 }
 

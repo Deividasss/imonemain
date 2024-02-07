@@ -6,7 +6,7 @@ const Loader = () => {
         <div className="w-screen h-screen flex justify-center items-center bg-[#00416a] loaderBack">
             <div>
                 <div className="flex justify-center md:pb-0 pb-20">
-                    <div class="cubeloader md:ml-20">
+                    {/* <div class="cubeloader md:ml-20">
                         <div class="box box0">
                             <div></div>
                         </div>
@@ -34,11 +34,20 @@ const Loader = () => {
                         <div class="ground">
                             <div></div>
                         </div>
+                    </div> */}
+                    <div id="page">
+                        <div id="container">
+                            <div id="ring"></div>
+                            <div id="ring"></div>
+                            <div id="ring"></div>
+                            <div id="ring"></div>
+                            <div className="text-white md:text-6xl text-3xl servicesText">TorusByte</div>
+                        </div>
                     </div>
                 </div>
-                <div className="relative mt-[-100px]">
+                {/* <div className="relative mt-[-100px]">
                     <img className="h-[100px]" src={Logo}></img>
-                </div>
+                </div> */}
             </div>
         </div>
     )

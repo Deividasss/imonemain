@@ -4,3 +4,88 @@
     color: white;
     font-family: 'Lilita One', sans-serif;
 }
+
+#howContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  #howRing {
+    width: 70px;
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+  }
+  @media (max-width: 768px) {
+    #howRing {
+      width: 70px;
+      height: 70px;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      position: absolute;
+    }
+  }
+  
+  #howRing:nth-child(1) {
+    border-bottom: 10px solid #0f659b;
+    animation: rotate1 2s linear infinite;
+  }
+  
+  @keyframes rotate1 {
+    from {
+      transform: rotateX(50deg) rotateZ(110deg);
+    }
+  
+    to {
+      transform: rotateX(50deg) rotateZ(470deg);
+    }
+  }
+  
+  #howRing:nth-child(2) {
+    border-bottom: 10px solid #ffffff;
+    animation: rotate2 2s linear infinite;
+  }
+  
+  @keyframes rotate2 {
+    from {
+      transform: rotateX(20deg) rotateY(50deg) rotateZ(20deg);
+    }
+  
+    to {
+      transform: rotateX(20deg) rotateY(50deg) rotateZ(380deg);
+    }
+  }
+  
+  #howRing:nth-child(3) {
+    border-bottom: 10px solid #0f659b;
+    animation: rotate3 2s linear infinite;
+  }
+  
+  @keyframes rotate3 {
+    from {
+      transform: rotateX(40deg) rotateY(130deg) rotateZ(450deg);
+    }
+  
+    to {
+      transform: rotateX(40deg) rotateY(130deg) rotateZ(90deg);
+    }
+  }
+  
+  #howRing:nth-child(4) {
+    border-bottom: 10px solid rgb(255, 255, 255);
+    animation: rotate4 2s linear infinite;
+  }
+  
+  @keyframes rotate4 {
+    from {
+      transform: rotateX(70deg) rotateZ(270deg);
+    }
+  
+    to {
+      transform: rotateX(70deg) rotateZ(630deg);
+    }
+  }

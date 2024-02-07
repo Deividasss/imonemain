@@ -73,13 +73,20 @@ const Services = () => {
             <div className="relative px-5 md:text-left text-center flex justify-center items-center">
                 <div className="md:max-w-[1300px]">
                     <div className="md:pt-[20%] pt-[35%] md:flex">
-                        <div className="">
-                            <h1 className="servicesText  md:text-6xl text-4xl animate__animated animate__zoomIn animate__delay-1s">Future-Ready IT Solutions for Today's Challenges</h1>
+                        <div className="md:w-[60%]">
+                            <h1 className="servicesText md:text-6xl text-4xl animate__animated animate__zoomIn animate__delay-1s">Future-Ready IT Solutions for Today's Challenges</h1>
                             <p className="servicesText  md:text-2xl text-xl mt-6 animate__animated animate__zoomIn animate__delay-1s">Elevate your business operations to the next level with our comprehensive IT services. We focus on delivering seamless and efficient solutions, including network management, system integration, and 24/7 support. Experience unparalleled reliability and performance with our advanced IT offerings.</p>
                         </div>
-                        <img className="md:h-[350px] px-10 animate__animated animate__zoomIn animate__delay-1s" src={Logo}></img>
+                        <div className="px-10 mt-10 md:mt-[-100px] animate__animated animate__zoomIn animate__delay-1s" id="serviceContainer">
+                            <div className="md:block flex justify-center">
+                                <div id="serviceRing"></div>
+                                <div id="serviceRing"></div>
+                                <div id="serviceRing"></div>
+                                <div id="serviceRing"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="mt-40 grid grid-row md:grid-cols-2 animate__animated animate__zoomIn animate__delay-1s">
+                    <div className="md:mt-52 mt-[80%] grid grid-row md:grid-cols-2 animate__animated animate__zoomIn animate__delay-1s">
                         <AccordionItem
                             title="Elevate Your Online Presence with Our Web Development Expertise"
                             description="Unlock the full potential of your online identity with our bespoke web development services. Our team of skilled developers blends creativity with functionality to deliver tailored solutions that resonate with your brand"
