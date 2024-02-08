@@ -18,10 +18,10 @@ const Footer = () => {
                                 <a rel="noopener noreferrer" href="/" className="md:text-2xl text-lg text-white hover:scale-150 mt-5">Home</a>
                             </li>
                             <li className="hover:scale-105 mt-2">
-                                <a rel="noopener noreferrer" href="#" className="md:text-2xl text-lg text-white">Services</a>
+                                <a rel="noopener noreferrer" href="/services" className="md:text-2xl text-lg text-white">Services</a>
                             </li>
                             <li className="hover:scale-105 mt-2">
-                                <a rel="noopener noreferrer" href="#" className="md:text-2xl text-lg text-white hover:scale-150 mt-5">About</a>
+                                <a rel="noopener noreferrer" href="/aboutUs" className="md:text-2xl text-lg text-white hover:scale-150 mt-5">About</a>
                             </li>
                             <li className="hover:scale-105 mt-2">
                                 <a rel="noopener noreferrer" href="/letsConnect" className="md:text-2xl text-lg text-white hover:scale-150 mt-10">Contact</a>
@@ -34,7 +34,7 @@ const Footer = () => {
                                 <h2 class="md:text-2xl text-lg text-white">Call Us</h2>
                                 <p class="text-gray-200 text-sm md:text-lg mt-1">Tel:+37062271977</p>
                                 <h2 class="md:text-2xl text-white mt-5">Email</h2>
-                                <p class="text-gray-200 text-sm md:text-lg mt-1">deividas.kasetait@gmail.com</p>
+                                <p class="text-gray-200 text-sm md:text-lg mt-1">info@torusbyte.com</p>
                             </div>
                         </div>
                     </div>

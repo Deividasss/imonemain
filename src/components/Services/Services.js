@@ -24,7 +24,7 @@ const AccordionItem = ({ title, content, index, isOpen, toggleAccordion, descrip
         <div className={`flex justify-center ${isOpen ? 'hidden' : 'visible mt-[-20px] mx-5 bg-[#00416a] rounded-b-[20px]'}`}>
             <p className="text-white text-xl py-3 servicesText hover:scale-[115%] hover:cursor-pointer" onClick={() => toggleAccordion(index)}>Learn More <span className="flex justify-center"><FaAngleDown className="text-[30px]" /></span></p>
         </div>
-        <div className={`overflow-hidden ${isOpen ? 'mt-[-20px] mx-5 bg-[#00416a] rounded-b-[20px] animate__animated animate__slideInDown' : 'h-0'}`}>
+        <div className={`overflow-hidden ${isOpen ? 'mt-[-20px] mx-5 bg-[#00416a] rounded-b-[20px] animate__animated animate__fadeInLeft' : 'h-0'}`}>
             <div className="p-4 leading-normal text-blue-gray-500/80 text-lg text-white animate__animated animate__slideInLeft">{content}</div>
             <div className="p-4 leading-normal text-blue-gray-500/80 text-lg text-white animate__animated animate__slideInLeft">{content2}</div>
             <div className="flex justify-center">

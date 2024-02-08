@@ -1,5 +1,6 @@
 import { FaLinkedin, FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import React, { useState } from 'react';
+import axios from "axios";
 
 const LetsConnect = () => {
 
@@ -15,36 +16,47 @@ const LetsConnect = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
 
-        // try {
-        //   await axios.post('https://api.sendgrid.com/v3/mail/send', {
-        //     personalizations: [
-        //       {
-        //         to: [
-        //           {
-        //             email: 'recipient@example.com', // Your email address to receive the messages
-        //           },
-        //         ],
-        //         subject: 'New Contact Form Submission',
-        //       },
-        //     ],
-        //     from: {
-        //       email: 'sender@example.com', // Your SendGrid-verified email address
-        //     },
-        //     content: [
-        //       {
-        //         type: 'text/plain',
-        //         value: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
-        //       },
-        //     ],
-        //   });
-
-        //   // Optionally, you can handle success and show a success message to the user
-        // } catch (error) {
-        //   console.error('Error sending email:', error);
-        //   // Handle error and show an error message to the user
-        // }
+        try {
+            const response = await axios.post(
+                'https://api.sendgrid.com/v3/mail/send',
+                {
+                    personalizations: [
+                        {
+                            to: [
+                                {
+                                    email: 'info@torusbyte.com',
+                                },
+                            ],
+                            subject: `MESSAGE FROM ${formData.name}`,
+                        },
+                    ],
+                    from: {
+                        email: 'info@torusbyte.com',
+                    },
+                    content: [
+                        {
+                            type: 'text/html',
+                            value: `
+                                <h2>Message Information</h2>
+                                <p>----------------------------------------------</p>
+                                <p><strong>Name:</strong> ${formData.name}</p>
+                                <p><strong>Email:</strong> ${formData.email}</p>
+                                <p><strong>Message:</strong> ${formData.message}</p>
+                            `,
+                        },
+                    ],
+                },
+                {
+                    headers: {
+                        Authorization: `Bearer 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`,
+                        'Content-Type': 'application/json',
+                    },
+                }
+            );
+        } catch (error) {
+            console.error('Error sending email:', error);
+        }
     };
 
     return (
