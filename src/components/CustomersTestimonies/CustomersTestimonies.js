@@ -7,7 +7,7 @@ const CustomersTestimonies = () => {
             <div class="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
                 <div class="transition duration-500 ease-in-out  translate-x-0 translate-y-0 opacity-100">
                     <div class="mb-12 space-y-5 md:mb-16 md:text-center">
-                        <h1 class="mb-5 text-5xl testimoniesTitle text-center md:text-6xl">
+                        <h1 class="mb-5 leading-[50px] text-[40px] testimoniesTitle text-center md:text-6xl">
                             It's not just us
                         </h1>
                         <p class="text-xl testimoniesTitle text-center md:text-2xl">

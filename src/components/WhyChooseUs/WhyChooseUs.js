@@ -7,10 +7,10 @@ const WhyChooseUs = () => {
             <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
                 <div class="container mx-auto">
                     <div class="text-center">
-                        <p class="mainTitle text-center relative text-5xl md:text-6xl md:pb-10">Why TorusByte?</p>
+                        <p class="mainTitle text-center relative leading-[50px] text-[40px] md:text-6xl md:pb-10">Why TorusByte?</p>
                         <p className="text-xl md:text-3xl mainTitle md:mt-0 mt-5">Unleashing the Power of Precision in Digital Innovation</p>
                     </div>
-                    <div class="flex flex-wrap mt-12 px-6 p-6 bg-[#00416a8e] rounded-2xl">
+                    <div class="flex flex-wrap mt-12 md:px-6 md:p-6 p-3 bg-[#00416a8e] rounded-2xl">
                         <div class="w-full border-b-[6px] md:w-1/2 border-r-[6px] lg:w-1/3 p-8">
                             <div class="flex items-center mb-6 md:text-left">
                                 <div id="page">

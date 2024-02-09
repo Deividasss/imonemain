@@ -26,7 +26,7 @@ const Header = () => {
             <nav id="navigation" class="px-4 lg:px-6 py-9 navigation animate__animated animate__slideInDown">
                 <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <a href="/" class="flex items-center">
-                        <img src={MainLogo} class="mr-3 h-[50px] md:h-[70px] transition-all duration-700" alt="Flowbite Logo" />
+                        <img src={MainLogo} class={`${isMenuOpen ? 'hidden' : ''} mr-3 h-[50px] md:h-[70px] transition-all duration-700" alt="Flowbite Logo`}/>
                     </a>
                     <div class="flex items-center lg:order-2">
                         <button
@@ -43,20 +43,20 @@ const Header = () => {
                     <div className={` w-full lg:flex lg:w-auto lg:order-1 ${isMenuOpen ? 'flex visible justify-center items-center h-screen animate__animated animate__slideInDown' : 'hidden'}`}>
                         <div className="mt-[-200px] md:mt-0">
                             <div>
-                                <img src={MainLogo} className={` ${isMenuOpen ? 'h-[80px]' : 'hidden'}`}/>
+                                <img src={MainLogo} className={` ${isMenuOpen ? 'h-[70px]' : 'hidden'}`}/>
                             </div>
                             <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-16 lg:mt-0 text-center ">
                                 <li>
-                                    <a href="/" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaHouseChimney /></span>Home</a>
+                                    <a href="/" class={`block md:py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-xl mt-5' : 'text-lg'}`}><span className="md:block hidden absolute mt-1 ml-[-35px]"><FaHouseChimney /></span>Home</a>
                                 </li>
                                 <li>
-                                    <a href="/services" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaCode /></span>Services</a>
+                                    <a href="/services" class={`block md:py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-xl mt-5' : 'text-lg'}`}><span className="md:block hidden absolute mt-1 ml-[-35px]"><FaCode /></span>Services</a>
                                 </li>
                                 <li>
-                                    <a href="/aboutUs" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaHive /></span>About</a>
+                                    <a href="/aboutUs" class={`block md:py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-xl mt-5' : 'text-lg'}`}><span className="md:block hidden absolute mt-1 ml-[-35px]"><FaHive /></span>About</a>
                                 </li>
                                 <li>
-                                    <a href="/letsConnect" class={`block py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-2xl mt-5' : 'text-lg'}`}><span className="absolute mt-1 ml-[-35px]"><FaAngellist /></span>Contact</a>
+                                    <a href="/letsConnect" class={`block md:py-2 pr-4 pl-3 tracking-wider headerButtons text-white transition-[1.6s] hover:scale-125 ${isMenuOpen ? 'text-xl mt-5' : 'text-lg'}`}><span className="md:block hidden absolute mt-1 ml-[-35px]"><FaAngellist /></span>Contact</a>
                                 </li>
                                 <li>
                                 </li>

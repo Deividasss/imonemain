@@ -6,7 +6,7 @@ import Scene from "../Scene/Scene";
 const Canva = () => {
     return (
         <div className="h-[100%] w-[100%] fixed">
-            <Canvas antialias={true}>
+            <Canvas>
                 <Scene />
             </Canvas>
         </div>

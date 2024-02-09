@@ -30,16 +30,16 @@ const Homepage = () => {
     return (
         <>
             <div className="flex items-center justify-center">
-                <div className="md:max-w-[1300px] ">
+                <div className="md:max-w-[1300px]">
                     <div className="flex justify-center items-center h-screen">
                         <div>
                             <div className=" p-2 text-center">
-                                <h2 className="mockupTitle mt-10 md:text-[75px] text-[50px] animate__animated animate__zoomIn animate__delay-1s leading-[75px]">Building Tomorrow's Digital Landscape Today</h2>
-                                <h2 className="mockupTitle mt-7 text-[25px] leading-7 md:text-[35px] animate__animated animate__zoomIn animate__delay-1s">Everything from simple tasks to worldwide projects</h2>
+                                <h1 className="mockupTitle mt-10 md:text-[75px] text-[40px] animate__animated animate__zoomIn animate__delay-1s md:leading-[90px] leading-[50px]">Building Tomorrow's Digital Landscape Today</h1>
+                                <p className="mockupTitle mt-7 text-[22px] leading-7 md:text-[35px] animate__animated animate__zoomIn animate__delay-1s">Everything from simple tasks to worldwide projects</p>
                                 <button className="mainButton mt-16 animate__animated animate__zoomIn animate__delay-1s" onClick={() => scrollToTarget()}>Launch Your Project</button>
                             </div>
                             <div className="md:block hidden">
-                                <div class="animate__animated animate__zoomIn animate__delay-1s w-[200px] md:w-[240px] m-auto flex bottom-20 right-32 md:absolute space-x-1 lg:col-end-13 bg-[#00416a8e] border-white border-solid border-2 rounded-xl md:px-3 md:py-1">
+                                <div class="animate__animated animate__zoomIn animate__delay-1s w-[200px] md:w-[240px] m-auto flex bottom-7 right-7 md:absolute space-x-1 lg:col-end-13 bg-[#00416a8e] border-white border-solid border-2 rounded-xl md:px-3 md:py-1">
                                     <a rel="noopener noreferrer" href="https://www.linkedin.com/in/deividas-ka%C5%A1%C4%97ta-1888aa193/" target="_blank" title="Email" class="hover:scale-125 flex items-center justify-center w-16 h-16 rounded-full">
                                         <FaLinkedin className="text-white md:text-5xl text-4xl" />
                                     </a>
